@@ -1,8 +1,8 @@
 public class BodyMassIndexService {
 
-    public double calculate(double m, double h) {
+    public double calculate(double mass, double height) {
 
-        double bmi = m / Math.pow(h, 2);
+        double bmi = mass / Math.pow(height, 2);
         bmi = Math.round(bmi * 100.0) / 100.0;
 
 
